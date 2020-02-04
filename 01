@@ -1,0 +1,25 @@
+package estruturaSequencial;
+
+import java.util.Scanner;
+
+public class exercicio01 {
+
+	public static void main(String[] args) {
+		
+		int n1 , n2;
+		int soma;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		n1 = sc.nextInt();
+		n2 = sc.nextInt();
+		soma  = n1 + n2;
+		
+		System.out.println("A soma dos números digitado é igual a :" + soma);
+		
+		sc.close();
+		
+
+	}
+
+}
